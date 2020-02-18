@@ -1,7 +1,8 @@
 ﻿---
 layout: page
 title:  An Introduction to Stress Testing and Jmeter
-permalink: /wiki/SHORTNAME/
+permalink: /wiki/
+StressTestingBlog/
 ---
 
 *by:* James Levy, Hamid Reza, and Samuel Farid
