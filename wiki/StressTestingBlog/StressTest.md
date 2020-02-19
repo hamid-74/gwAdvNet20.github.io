@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title:  An Introduction to Stress Testing and Jmeter
 permalink: /wiki/StressTestingBlog/
