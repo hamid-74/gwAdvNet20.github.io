@@ -11,15 +11,19 @@ Our blog post aims to provide some context as to the elements that may go into t
 
 ---
 
-# An Introduction to Stress Testing and Jmeter <a name="introduction"></a>
+# An Introduction to Stress Testing and Jmeter 
 Hi, thanks for visiting our blog today. Some time ago during my networking class, we were talking about the performance and metrics of servers. This led into a conversation about what causes metrics to change in these systems. One of the things this made me think about was stress testing, in other words, seeing how your product reacts when put under extreme situations. Today we’ll be talking about what stress testing on your serve is and why it should happen. We will also take a look at how to use a stress testing tool called Jmeter.
 
 **Table of Contents**
 
 * [What is Stress Testing?](#introduction)
+* [Jmeter](#jmeter)
+* [Our Jmeter Example: (Sending Requests to Your Server and Measure Results)](#example)
+* [Sources](#sources)
 
 
-## What is Stress Testing?
+
+## What is Stress Testing? <a name="introduction"></a>
 Stress testing is the process of putting your own software through extreme situations in order to see what will happen. It is often used in order to see what will cause your system to break. Some would say that the goal of stress testing is to break your product so that you can learn how to improve it. How is this different from load testing? Load testing doesn’t try to break your break your code, merely measure how the system performs. While load testing may be more common during the day to day experience, stress testing is still incredibly useful for product improvement in the long term.
 
 There are  many different kinds of stress testing and each of them has their own specific use case. Knowing the different kinds, lets us come up with specific tests for the problems we want to solve, aiding us in solving our server issues quickly and efficiently. They also help us make sure that we have tested all the different elements without forgetting any. Here are some examples of the most common types of stress tests for servers.
@@ -38,7 +42,7 @@ Quality! Quality! Quality! We want to provide the best service possible to our u
 
 A broken product/server is not only bad for the customers, but also the developer’s reputation.
 
-# Jmeter 
+## Jmeter<a name="jmeter"></a> 
 ![](stress-j.png)
 
 Jmeter is a Java based load and stress testing tool. It allows the user to play with many different functionalities such as sending requests to a server and seeing how a server reacts to a set of inputs. Jmeter could be downloaded form [here]( https://jmeter.apache.org/download_jmeter.cgi). You should download and extract the binary zip file.
@@ -51,7 +55,7 @@ It is worth noting that Jmeter requires a Java JDK of at least 8. You can verify
 
 In order to run Jmeter, go to the extracted directory,  then go to the /bin  folder and run jmeter.bat file.
 
-# Our Jmeter Example: (How to Send Requests to Your Server and Measure Results)
+## Our Jmeter Example: (Sending Requests to Your Server and Measure Results)<a name="example"></a>
 Now that we have Jmeter installed and running, We are going to go over a simple example that can connect to a web server and send it a number of HTTP requests. This example should give you a good idea of what can be done with Jmeter. Furthermore, by tweaking different elements of this default test you can edit your stress test to be more or less intense. This will allow you to create your own set of tests that differ in intensity. It’s the first step in creating your own personalized server testing suite.
 
 <u>Step 1: Create a “Test Plan”</u>
@@ -94,7 +98,7 @@ If we focus on the graph portion of our example, we can see that not only do our
 
 ![](stress-8.jpg)
 
-# Sources: 
+## Sources:<a name="soruces"></a> 
 
 We thank you for reading our blogpost and we hope that you learned something new today. Our blogpost has used a couple of different sources to help explain our concepts. If you want to learn even more, we highly suggest you visit these sites.
 * https://www.youtube.com/watch?v=DGW1Yk-Z7tI
