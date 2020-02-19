@@ -16,7 +16,7 @@ Hi, thanks for visiting our blog today. Some time ago during my networking class
 
 **Table of Contents**
 
-1. [What is Stress Testing?](#introduction)
+* [What is Stress Testing?](#introduction)
 
 
 ## What is Stress Testing?
