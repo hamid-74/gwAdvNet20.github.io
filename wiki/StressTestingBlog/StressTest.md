@@ -11,14 +11,13 @@ Our blog post aims to provide some context as to the elements that may go into t
 
 ---
 
+# An Introduction to Stress Testing and Jmeter <a name="introduction"></a>
+Hi, thanks for visiting our blog today. Some time ago during my networking class, we were talking about the performance and metrics of servers. This led into a conversation about what causes metrics to change in these systems. One of the things this made me think about was stress testing, in other words, seeing how your product reacts when put under extreme situations. Today we’ll be talking about what stress testing on your serve is and why it should happen. We will also take a look at how to use a stress testing tool called Jmeter.
+
 **Table of Contents**
 
 [What is Stress Testing?](#introduction)
 
-
-
-# An Introduction to Stress Testing and Jmeter <a name="introduction"></a>
-Hi, thanks for visiting our blog today. Some time ago during my networking class, we were talking about the performance and metrics of servers. This led into a conversation about what causes metrics to change in these systems. One of the things this made me think about was stress testing, in other words, seeing how your product reacts when put under extreme situations. Today we’ll be talking about what stress testing on your serve is and why it should happen. We will also take a look at how to use a stress testing tool called Jmeter.
 
 ## What is Stress Testing?
 Stress testing is the process of putting your own software through extreme situations in order to see what will happen. It is often used in order to see what will cause your system to break. Some would say that the goal of stress testing is to break your product so that you can learn how to improve it. How is this different from load testing? Load testing doesn’t try to break your break your code, merely measure how the system performs. While load testing may be more common during the day to day experience, stress testing is still incredibly useful for product improvement in the long term.
