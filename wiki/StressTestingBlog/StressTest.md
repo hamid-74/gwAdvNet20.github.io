@@ -7,11 +7,6 @@ permalink: /wiki/StressTestingBlog/
 *by:* James Levy, Hamid Reza, and Samuel Farid
 
 
-Our blog post aims to provide some context as to the elements that may go into testing a web server. In this post we touch on 2 subjects. The first subject is the definition of stress testing and its purpose. The second is an example of how to use Jmeter to perform a stress or load test on a server.
-
----
-
-# An Introduction to Stress Testing and Jmeter 
 Hi, thanks for visiting our blog today. Some time ago during my networking class, we were talking about the performance and metrics of servers. This led into a conversation about what causes metrics to change in these systems. One of the things this made me think about was stress testing, in other words, seeing how your product reacts when put under extreme situations. Today we’ll be talking about what stress testing on your serve is and why it should happen. We will also take a look at how to use a stress testing tool called Jmeter.
 
 #### Table of Contents
@@ -21,6 +16,8 @@ Hi, thanks for visiting our blog today. Some time ago during my networking class
 * [Our Jmeter Example: (Sending Requests to Your Server and Measure Results)](#example)
 * [Sources](#sources)
 
+
+---
 
 
 ## What is Stress Testing? <a name="introduction"></a>
