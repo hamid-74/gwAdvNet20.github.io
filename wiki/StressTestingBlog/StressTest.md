@@ -7,6 +7,7 @@ permalink: /wiki/StressTestingBlog/
 *by:* James Levy, Hamid Reza, and Samuel Farid
 
 
+
 Hi, thanks for visiting our blog today. Some time ago during my networking class, we were talking about the performance and metrics of servers. This led into a conversation about what causes metrics to change in these systems. One of the things this made me think about was stress testing, in other words, seeing how your product reacts when put under extreme situations. Today we’ll be talking about what stress testing on your serve is and why it should happen. We will also take a look at how to use a stress testing tool called Jmeter.
 
 #### Table of Contents
