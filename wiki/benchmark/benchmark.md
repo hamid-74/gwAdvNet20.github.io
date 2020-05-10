@@ -11,17 +11,13 @@ A short description of your post goes here.
 
 ---
 In this experiment we will deploy a sample web application in amazon cloud servers by Elastic Beanstalk service. As Amazon explains: “AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS”.
-	The sample application contains a welcome webpage with couple of links to other resources. The mentioned web application is deployed on four different machine types: t2.micro, t2.large, r5.large and m5.large. Details for each of these instance types are available below (Table 1).
-	vCPU	ECU	Memory(GiB)	Instance Storage (GB)	Linux/UNIX Usage
-t2.micro	1	Variable	1 GiB	EBS Only	$0.0152 per Hour
-t2.large	2	Variable	8 GiB	EBS Only	$0.1216 per Hour
-r5.large	2	10	16 GiB	EBS Only	$0.152 per Hour
-m5.large	2	10	8 GiB	EBS Only	$0.124 per Hour
+The sample application contains a welcome webpage with couple of links to other resources. The mentioned web application is deployed on four different machine types: t2.micro, t2.large, r5.large and m5.large. Details for each of these instance types are available below (Table 1).
+	
 Table 1: Amazon EC2 Pricing.
-	For deploying a web application with Elastic Beanstalk, first we have to login to the AWS console. Then search Elastic Beanstalk and open launch the service (Screenshot 1).
+For deploying a web application with Elastic Beanstalk, first we have to login to the AWS console. Then search Elastic Beanstalk and open launch the service (Screenshot 1).
  
 Screenshot 1.
-	Then we must create an environment for our web application (Screenshot 2). In this section, we can configure our environment to test the application with different machine types.
+Then we must create an environment for our web application (Screenshot 2). In this section, we can configure our environment to test the application with different machine types.
  
 Screenshot 2.
 Here we should select “Web server environment” for deploying a web application (Screenshot 3).
